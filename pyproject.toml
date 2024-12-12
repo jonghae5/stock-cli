@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "ojh"
+version = "0.1.0"
+description = ""
+authors = ["오종해 <dhwhdgo2368@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "^3.11.10"
+rich = "^13.9.4"
+pyupbit = "^0.2.34"
+pyyaml = "^6.0.2"
+click = "^8.1.7"
+plotille = "^5.0.0"
+pytz = "^2024.2"
+yfinance = "^0.2.50"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

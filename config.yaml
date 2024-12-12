@@ -1,0 +1,55 @@
+# config.yaml
+
+stock_symbols:
+  - 035420.KS
+  - 010140.KS
+symbols:
+  - KRW-BTC
+  - KRW-ETH
+  - KRW-XRP
+  - KRW-ADA
+  - KRW-DOGE
+  - KRW-SOL
+update_interval: 10
+table_title: "Cryptocurrency Dashboard"
+columns:
+  - name: "Symbol"
+    style: "cyan dim"
+    justify: "left"
+  - name: "Last Price"
+    style: "green dim"
+    justify: "right"
+  - name: "Change (%)"
+    style: "magenta dim"
+    justify: "right"
+  - name: "Volume"
+    style: "yellow dim"
+    justify: "right"
+  - name: "High"
+    style: "bright_red dim"
+    justify: "right"
+  - name: "Low"
+    style: "bright_blue dim"
+    justify: "right"
+stock_columns:
+  - name: "Symbol"
+    style: "cyan dim"
+    justify: "left"
+  - name: "Yesterday"
+    style: "white dim"
+    justify: "right"
+  - name: "Today"
+    style: "green dim"
+    justify: "right"
+  - name: "Change (%)"
+    style: "magenta dim"
+    justify: "right"
+  - name: "Volume"
+    style: "yellow dim"
+    justify: "right"
+  - name: "High"
+    style: "bright_red dim"
+    justify: "right"
+  - name: "Low"
+    style: "bright_blue dim"
+    justify: "right"
