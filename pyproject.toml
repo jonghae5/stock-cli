@@ -6,7 +6,7 @@ authors = ["오종해 <dhwhdgo2368@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 aiohttp = "^3.11.10"
 rich = "^13.9.4"
 pyupbit = "^0.2.34"
